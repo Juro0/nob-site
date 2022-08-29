@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+
+        <!-- META REQUIRED -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="bar, nob, not ordinary bar, drink, cocktail, sarzana, piazza giacomo matteotti, SP">
+        <meta name="description" content="NOT ORDINARY BAR - NOB \n Eccellenze italiane 2022, cocktail, a sarzana (SP)">
+        <meta name="author" content="Gemignani Juri">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- TITLE AND FAVICON -->
+        <title>NOB &bull; Not Ordinary Bar</title>
+        <link rel="shortcut icon" href="assets/imgs/logo.jpg" type="image/x-icon">
+
+        <!-- CSS IMPORT + ICONS IMPORT -->
+        <link rel="stylesheet" href="assets/css/style-lg.css" media="screen and (min-width: 1024px)">
+        <link rel="stylesheet" href="assets/css/style-md.css" media="screen and (min-width: 568px) and (max-width:1023px)">
+        <link rel="stylesheet" href="assets/css/style-sm.css" media="screen and (max-width: 567px)">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    </head>
+
+    <body>
+        
+        <!-- NAVBAR -->
+        <header class="navbar">
+
+            <img src="assets/imgs/logo.jpg" alt="NOT ORDINARY BAR" class="navbar-logo">
+            <br>
+            <button class="navbar-link mobile-hide goHome">Home</button>
+            <button class="navbar-link mobile-hide goDrinklist">Drink List</button>
+            <button class="navbar-link mobile-hide goNews">News</button>
+            <button class="navbar-cta mobile-hide goCont">Contatti</button>
+
+            <div class="desktop-hide tablet-hide">
+                <i class="uil uil-bars hamburger-menu toggle-menu"></i>
+                <div class="mobile-menu menu-close">
+                    <p class="navbar-link goHome">Home</p>
+                    <p class="navbar-link goDrinklist">Drink List</p>
+                    <p class="navbar-link goNews">News</p>
+                    <p class="navbar-cta goCont">Contatti</p>
+                </div>
+            </div>
+
+        </header>
+
+        <!-- LANDING PAGE -->
+        <div class="page hero-page" id="hero">
+            <img src="assets/imgs/carosello/photo-1.jpg" alt="" id="carosello">
+            <div class="hero-shadow"> 
+                <!-- SHADOW FOR CAROSELLO -->
+            </div>
+            <p class="hero-name">NOT ORDINARY BAR</p>
+            <p class="hero-desc" id="hero-desc">apericena indimenticabili</p>
+        </div>
+
+        <!-- HOME PAGE -->
+        <div class="page home-page" id="home">
+            <img src="assets/imgs/carosello/photo-3.jpg" alt="LOGO" class="home-img" id="random-img">
+            <p class="home-title">Not Ordinary Bar</p>
+            <p class="home-description">NOB è un bar 'non ordinario', aperto il 30 giugno 2021 da Lorenzo Del Padrone a Sarzana (SP). <br>
+                Il bar fornisce aperitivi e cocktail, ed è aperto solo in orario serale 7 giorni su 7. <br>
+                Si trova in Piazza Matteotti (46/47) a Sarzana (SP).
+            </p>
+            <button class="home-cta goCont">CONTATTACI</button>
+        </div>
+
+        <!-- DRINKLIST PAGE -->
+        <div class="page drinklist-page" id="drinklist">
+
+            <p class="cont-title">DRINK LIST</p>
+            <div class="first-separator"> SEPARATORE (nascosto) </div>
+            
+            <div class="drink-card">
+                <p class="drink-name">futurismo rivisitato</p>
+                <p class="drink-subtitle">Cocktail tra il dolce e l’amaro, con note speziate e affumicate.</p>
+                <p class="drink-desc">mate organics</p>
+                <p class="drink-desc">essentiae liquore lamponi</p>
+                <p class="drink-desc">limone fresco</p>
+                <p class="drink-desc">bitter al cioccolato</p>
+                <p class="drink-desc">nardini bitter chinato</p>
+                <p class="drink-desc drink-desc-end">purea di lamponi freschi</p>
+                <p class="drink-price">€6.50</p>
+            </div>
+            
+            <div class="drink-card">
+                <p class="drink-name">città del messico</p>
+                <p class="drink-subtitle">cocktail ricco di sapori provenienti dalla terra del messico</p>
+                <p class="drink-desc">mate organics</p>
+                <p class="drink-desc">bitter al cioccolato</p>
+                <p class="drink-desc">nardini bitter chinato</p>
+                <p class="drink-desc">frutta esotica</p>
+                <p class="drink-desc drink-desc-end">purea di lamponi freschi</p>
+                <p class="drink-price">€7.00</p>
+            </div>
+
+            <div class="drink-card">
+                <p class="drink-name">lorem ipsum</p>
+                <p class="drink-subtitle">dolor sit amet consectetur adipisicing elit. Mollitia corrupti, suscipit tempora excepturi eveniet esse.</p>
+                <p class="drink-desc">sed volutpat velit libero, quis posuere.</p>
+                <p class="drink-desc">nullam commodo nunc ac nulla rhoncus.</p>
+                <p class="drink-desc">suspendisse sit amet volutpat tortor, vitae.</p>
+                <p class="drink-desc">aliquam vel leo massa. Vivamus nec.</p>
+                <p class="drink-desc">nam mollis, ipsum in ullamcorper commodo.</p>
+                <p class="drink-desc drink-desc-end">etiam urna massa, pretium ac dictum.</p>
+                <p class="drink-price">€100</p>
+            </div>
+
+        </div>
+
+        <!-- NEWS PAGE -->
+        <div class="page news-page" id="news">
+            <p class="cont-title">NEWS</p>
+            <div class="first-separator">SEPARATORE</div>
+
+            <div class="news-card">
+                <img src="assets/imgs/carosello/photo-7.jpg" class="news-img">
+                <p class="news-title">LOREM IPSUM</p>
+                <p class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima esse soluta, error nesciunt quae totam quidem in corrupti. Quisquam eum odio distinctio iure nostrum ipsum voluptatibus veniam accusamus itaque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque asperiores sapiente, non velit impedit officiis mollitia deleniti tenetur quia, vitae alias itaque! Nesciunt deserunt corrupti repellat, id recusandae eaque similique? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas magni, laboriosam maxime quaerat impedit dolorum modi suscipit dolorem nihil neque porro totam similique deserunt perferendis, architecto eius quae accusantium repellat? </p>
+                <p class="news-author">Lorenzo Del Padrone - Proprietario</p>
+                <p class="news-date">18/08/2022 - 15:18</p>
+            </div>
+            
+            <div class="news-card">
+                <img src="assets/imgs/carosello/photo-7.jpg" class="news-img">
+                <p class="news-title">LOREM IPSUM</p>
+                <p class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima esse soluta, error nesciunt quae totam quidem in corrupti. Quisquam eum odio distinctio iure nostrum ipsum voluptatibus veniam accusamus itaque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque asperiores sapiente, non velit impedit officiis mollitia deleniti tenetur quia, vitae alias itaque! Nesciunt deserunt corrupti repellat, id recusandae eaque similique? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas magni, laboriosam maxime quaerat impedit dolorum modi suscipit dolorem nihil neque porro totam similique deserunt perferendis, architecto eius quae accusantium repellat? </p>
+                <p class="news-author">Lorenzo Del Padrone - Proprietario</p>
+                <p class="news-date">18/08/2022 - 15:18</p>
+            </div>
+            
+            <div class="news-card">
+                <img src="assets/imgs/carosello/photo-7.jpg" class="news-img">
+                <p class="news-title">LOREM IPSUM</p>
+                <p class="news-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit minima esse soluta, error nesciunt quae totam quidem in corrupti. Quisquam eum odio distinctio iure nostrum ipsum voluptatibus veniam accusamus itaque. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque asperiores sapiente, non velit impedit officiis mollitia deleniti tenetur quia, vitae alias itaque! Nesciunt deserunt corrupti repellat, id recusandae eaque similique? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas magni, laboriosam maxime quaerat impedit dolorum modi suscipit dolorem nihil neque porro totam similique deserunt perferendis, architecto eius quae accusantium repellat? </p>
+                <p class="news-author">Lorenzo Del Padrone - Proprietario</p>
+                <p class="news-date">18/08/2022 - 15:18</p>
+            </div>
+
+        </div>
+
+        <!-- CONTACTS PAGE -->
+        <div class="page contacts-page" id="contacts">
+
+            <p class="cont-title">CONTATTACI</p>
+            <iframe class="cont-map mobile-hide tablet-hide" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2864.542740142461!2d9.958527615370336!3d44.11342627910821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12d5031c060c05db%3A0xf7e467b8c0411356!2sNOB!5e0!3m2!1sit!2sit!4v1660609779884!5m2!1sit!2sit" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p class="cont-line goLocation"><i class="uil cont-icon uil-location-point"></i> SARZANA, Piazza G. Matteotti, 46/47</p>
+            <p class="cont-line" id="goInsta"><i class="uil cont-icon uil-instagram"></i> @nobsarzana</p>
+            <p class="cont-line" id="goFacebook"><i class="uil cont-icon uil-facebook-f"></i> nobsarzana</p>
+            <p class="cont-line" id="goMail"><i class="uil cont-icon uil-envelope"></i></i> nob.sarzana@gmail.com</p>
+            <p class="cont-line" id="goCell"><i class="uil cont-icon uil-mobile-android"></i> 334 2303651</p>
+            <span class="popup pop-hide">numero copiato!</span>
+
+        </div>
+
+        <!-- FOOTER -->
+
+        <footer class="footer">
+
+            <div class="foot-col tablet-hide mobile-hide">
+                <p class="foot-title">VIENI A TROVARCI</p>
+                <p class="foot-cont">
+                    puoi trovarci tutti i giorni dalle 17 alle 2, in Piazza G. Matteotti 46/47, Sarzana (SP).
+                </p>
+                <button class="foot-cta goLocation">APRI GOOGLE MAPS</button>
+            </div>
+            <div class="foot-col tablet-hide mobile-hide">
+                <p class="foot-title">CONTATTACI</p>
+                <p class="foot-cont">
+                    contattaci per avere maggiori informazioni sul locale e eventi futuri!
+                </p>
+                <button class="foot-cta goCont">SCHEDA CONTATTI</button>
+            </div>
+            <div class="foot-col">
+                <p class="foot-title">CREDITI</p>
+                <p class="foot-cont">
+                    un ringraziamento speciale a Juri Gemignani, che ha creato interamente il sito internet per il bar.
+                </p>
+                <button class="foot-cta mobile-hide tablet-hide goAuthor">SITO DI JURI</button>
+            </div>
+
+        </footer>
+
+        <!-- LOADING -->
+
+        <style>
+            @media screen and (min-width: 1024px) {
+                .loading {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100vw;
+                    height: 100vh;
+                    z-index: 998;
+                    background-color: #1B191A;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                }
+                .loader {
+                    border: 2px solid #2f2f2f;
+                    border-radius: 100%;
+                    border-top: 4px solid #ffcb74;
+                    width: 150px;
+                    height: 150px;
+                    animation: spin 1s ease infinite;
+                    z-index: 998;
+                }
+                .loadHide {
+                    transition: .5s all ease;
+                    opacity: 0;
+                }
+                @keyframes spin {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(360deg); }
+                }
+            }
+        </style>
+
+        <div class="loading mobile-hide tablet-hide">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JAVASCRIPT IMPORTS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/jquery.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="it">
+
+    <head>
+
+        <!-- META REQUIRED -->
+        <meta charset="UTF-8">
+        <meta name="author" content="Gemignani Juri">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- TITLE AND FAVICON -->
+        <title>NOB &bull; Page Not Found (404)</title>
+        <link rel="shortcut icon" href="assets/imgs/logo.jpg" type="image/x-icon">
+
+        <style>
+
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+            :root {
+
+                --primary-gray: #1B191A;
+                --primary-white: #fffdfe;
+                --secondary-black: #2f2f2f;
+                --secondary-white: #bcbcbc;
+                --accent-gold: #ffcb74;
+                
+                --fnt-poppins: 'Poppins', sans-serif;
+                --fnt-mont: 'Montserrat', sans-serif;
+
+                --wgt-black: 700;
+                --wgt-bold: 600;
+                --wgt-semi: 500;
+                --wgt-medium: 400;
+
+            }
+
+            html {
+                height: 100%;
+                background-color: var(--primary-gray);
+                font-family: var(--fnt-mont);
+            }
+
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                cursor: default;
+            }
+
+            *::selection {
+                background: none;
+            }
+
+            .desktop-hide {
+                display: none;
+            }
+
+            .desktop-hide > * {
+                display: none;
+            }
+
+            .page {
+                height: 100vh;
+            }
+
+            /* SCROLLBAR */
+
+            ::-webkit-scrollbar {
+                width: 0px;
+            }
+
+            /* DESKTOP */
+
+            @media (min-width: 568px) {
+                .img {
+                    position: absolute;
+                    width: 40vw;
+                    max-height: 50vh;
+                    top: 15vh;
+                    left: 30vw;
+                }
+
+                .txt {
+                    position: absolute;
+                    bottom: 30vh;
+                    text-align: center;
+                    width: 100vw;
+                    color: var(--primary-white);
+                    font-size: 1.5vw;
+                }
+
+                .cta {
+                    position: absolute;
+                    bottom: 15vh;
+                    text-align: center;
+                    width: 100vw;
+                    color: var(--primary-white);
+                    font-size: 1.5vw;
+                    text-decoration: underline;
+                    text-underline-offset: 5px;
+                    font-weight: var(--wgt-semi);
+                    cursor: pointer;
+                }
+
+                .cta:hover {
+                    transition: .3s all ease;
+                    transform: translateY(-2px);
+                    text-shadow: 0px 10px 10px rgba(255, 255, 255, .2);
+                }
+            }
+
+            @media (max-width: 568px) {
+                .img {
+                    position: absolute;
+                    width: 80vw;
+                    top: 15vh;
+                    left: 10vw;
+                }
+
+                .txt {
+                    position: absolute;
+                    bottom: 35vh;
+                    text-align: center;
+                    width: 100vw;
+                    color: var(--primary-white);
+                    font-size: 7vw;
+                    padding: 0 10vw;
+                }
+
+                .cta {
+                    position: absolute;
+                    bottom: 20vh;
+                    text-align: center;
+                    width: 100vw;
+                    color: var(--primary-white);
+                    font-size: 7vw;
+                    text-decoration: underline;
+                    text-underline-offset: 5px;
+                    font-weight: var(--wgt-semi);
+                    cursor: pointer;
+                    text-shadow: 0px 10px 10px rgba(255, 255, 255, .2);
+                }
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        
+        <img src="assets/imgs/404.png" alt="404 page not found" class="img">
+        <p class="txt">la pagina richiesta è stata spostata, rimossa o non è mai esistita</p>
+        <p class="cta" id="cta">vai al sito</p>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+
+            $(document).ready(function(){
+
+                $("#cta").click(function(){
+
+                    location.href = "index.html";
+
+                });
+
+            });
+
+        </script>
+
+    </body>
+
+</html>
